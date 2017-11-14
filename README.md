@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://github.com/pskelsey/4C/blob/gh-pages/4c_logo-01.png">
+  <img src="https://github.com/pskelsey/4C/blob/gh-pages/4CLogo.png">
 </p>
 
 # Crop Connectivity under Climate Change
