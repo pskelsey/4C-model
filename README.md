@@ -5,7 +5,12 @@
 
 ### Basic overview
 ***
-A desktop app for performing climate change risk assessments in real crop locations in Great Britain. Simply hit a few switches, twiddle a few knobs, and you can generate a super-ensemble based probabilistic projection. 
+A desktop app for performing climate change risk assessments in real crop locations in Great Britain. 
+Step 1: Build your own risk model in a few easy clicks.
+Step 2: Choose a crop species distribution, or generate your own.
+Step 3. Select a future time-period and month, and pick your greenhouse gas emissions scenario.
+Step 4: Define the level of connectivity among crop locations, if desired.
+Step 5: Hit the run button, visualise your results, and save them to create your own graphics. 
 
 ### Example
 ___
@@ -13,7 +18,7 @@ ___
 
 ### Motivation
 ___
-I built this app so that absolutely anybody can create a risk model, and have all the crop distribution and climate change scenario data at their fingertips. 
+I built this app so that absolutely anybody can perform a state-of-the-art climate change risk assessment. It uses real crop / land-use data from IACS, JACS, and CROME, and UKCP09 spatially coherent probabilistic climate change data. I have used this framework to produce several peer-reviewed journal articles, and you can too. 
 
 ### Installation
 
