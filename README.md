@@ -8,16 +8,16 @@
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain. 
 
 <ul style="list-style-type:none">
-  <li>Coffee</li>
-  <li>Tea</li>
+  <li>Build your own risk model in a few easy clicks</li>
+  <li>Choose a crop species distribution, or generate your own</li>
   <li>Milk</li>
 </ul>
 
-Step 1: Build your own risk model in a few easy clicks.
-Step 2: Choose a crop species distribution, or generate your own.
-Step 3. Select a future time-period and month, and pick your greenhouse gas emissions scenario.
-Step 4: Define the level of connectivity among crop locations, if desired.
-Step 5: Hit the run button, visualise your results, and save them to create your own graphics. 
+* Build your own risk model in a few easy clicks.
+* Choose a crop species distribution, or generate your own.
+* Select a future time-period and month, and pick your greenhouse gas emissions scenario.
+* Define the level of connectivity among crop locations, if desired.
+* Hit the run button, visualise your results, and save them to create your own graphics. 
 
 ### Example
 ___
