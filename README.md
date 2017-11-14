@@ -3,7 +3,7 @@
 </p>
 
 ### Synopsis
----
+------
 A desktop app that allows you to easily perform climate change risk assessments in real crop distributions in Great Britain
 
 ### Example
