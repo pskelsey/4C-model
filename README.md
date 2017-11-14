@@ -7,7 +7,7 @@
 ***
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain. 
 
-<ul style="list-style-type:disc">
+<ul style="list-style-type:none">
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
