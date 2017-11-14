@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/pskelsey/4C/blob/gh-pages/4c_logo-01.png">
+  <img src="https://github.com/pskelsey/4C/blob/gh-pages/4c_logo_v2.png">
 </p>
 
 ### Synopsis
