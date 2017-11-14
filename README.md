@@ -18,7 +18,7 @@ ___
 
 ### Motivation
 ___
-I built this app so that absolutely anybody can perform a state-of-the-art climate change risk assessment. It uses real crop / land-use data from IACS, JACS, and CROME, and UKCP09 spatially coherent probabilistic climate change data. I have used this framework to produce several peer-reviewed journal articles, and you can too. 
+I built this app so that absolutely anybody can perform a state-of-the-art climate change risk assessment. It uses real crop / land-use data from IACS, JACS, and CROME, and UKCP09 spatially coherent probabilistic climate change data. Selecting what you want is just a matter of hitting a few switches and twiddling a few knobs. I have used this framework to produce several peer-reviewed journal articles, and you can too. 
 
 ### Installation
 
