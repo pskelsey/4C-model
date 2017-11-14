@@ -18,7 +18,7 @@ A desktop app for performing climate change risk assessments in real crop locati
 
 
 ## Motivation
-I built this app so that absolutely anybody can perform a state-of-the-art climate change risk assessment. It uses real crop / land-use data from IACS, JACS, and CROME, and UKCP09 spatially coherent probabilistic climate change data. Selecting what you want is just a matter of hitting a few switches and twiddling a few knobs. I have used this framework to produce several peer-reviewed journal articles, and you can too. 
+I built this app so that absolutely anybody can perform a state-of-the-art climate change risk assessment. Maybe you are a scientist with absolutely no modelling experience, but you have some experimental data and want to realise the future implications of your results. Or maybe you have no scientific expertise whatsoever, but have questions regarding land use in GB under climate change. The app includes real crop / land-use data from IACS, JACS, and CROME, and UKCP09 spatially coherent probabilistic climate change data. Selecting what you want is just a matter of hitting a few switches and twiddling a few knobs. I've used this framework to produce several peer-reviewed journal articles, and you can too. 
 
 ### Installation
 
