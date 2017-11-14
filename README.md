@@ -1,4 +1,7 @@
-<p><img align="left" width="212" height="166" src="https://github.com/pskelsey/4C/blob/gh-pages/4CLogo.png"></p>
+<p align="left">
+  <img width="212" height="166"  src="https://github.com/pskelsey/4C/blob/gh-pages/4CLogo.png">
+</p>
+
 
 # Crop Connectivity under Climate Change
 
