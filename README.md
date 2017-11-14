@@ -4,7 +4,7 @@
 
 
 ### Basic overview
-<hr size="30">
+<hr size="2">
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain. Simply hit a few switches, twiddle a few knobs, and you can generate a super-ensemble based probabilistic projection. 
 
 ### Example
