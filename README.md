@@ -14,7 +14,9 @@ A desktop app for performing climate change risk assessments in real crop locati
 * Hit the run button, visualise your results, and save them to create your own graphics. 
 
 ## Example
-
+<p align="left">
+  <img width="3307" height="1325"  src="https://github.com/pskelsey/4C/blob/gh-pages/4CApp.png">
+</p>
 
 
 ## Motivation
