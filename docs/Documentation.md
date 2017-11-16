@@ -1,7 +1,9 @@
 # Contents
 
-- [Model Tab](#model-tab)
-- [Projections Tab](#projections-tab)
+[Model Tab](#model-tab)
+   Fitting a model to your own data
+   Creating your own model
+[Projections Tab](#projections-tab)
 
 ## Model Tab
 
