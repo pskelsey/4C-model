@@ -17,10 +17,6 @@ A desktop app for performing climate change risk assessments in real crop locati
 A risk function is selected from the drop-down menu and fit to some data for the proportion of plants infected as a function of temperature. You could just as easily recreate the same risk function without any data. 
 
 <p align="center">
-  <img src="https://github.com/pskelsey/4C/blob/gh-pages/4CAppModelTab.png">
-</p>
-
-<p align="center">
   <img src="https://github.com/pskelsey/4C/blob/gh-pages/modelsTabLarge.png">
 </p>
 Temperature is selected as the variable of interest, for a low emissions scenario in the 2040s, and the model is applied in potato crops in the English Midlands (map shown). In order to weight the final results by the connectivity of the crops (e.g., for pest dispersal), dispersal is switched on and set to a 2D Gaussian dispersal function with an average dispersal distance of 10km. The boxplots show the distribution of projected values for May through to September, which in this instance, show the percentage increase in risk compared to the current (baseline) climate. 
