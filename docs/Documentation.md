@@ -10,10 +10,14 @@
   * [Emissions panel](#emissions-panel)
   * [Landscapes panel](#landscapes-panel)
   * [Dispersal panel](#dispersal-panel)
-  * [Plots panel](plots-panel)
+  * [Plots panel](#plots-panel)
 
 ## Background
+The app allows you to define a weather-dependent model, or fit one to your own data. The model will be driven by spatially coherent, probabilistic climate change data to project future values under climate change. This means that for each land cell you will get an 'ensemble' or distribution of results that represent the uncertainty in potential future changes in climate. You can select which land cells to apply the model in by choosing a crop distribution or land use type. The app will then produce a 'super-ensemble' of results, where the distribution of outcomes for each land cell are combined. You can also choose to incoporate the flow of connect your selected land cells via different types of dispersal, if 
 
+The risk model must be a function of one weather variable only, y = f(x); e.g., crop damage as a function of temperature, infection risk as a function of precipitation, etc. The ability to build models containing more than one weather variable will be included in a future release. 
+
+uses 25 km gridded data  defining the spatial distribution of various crop species and land use types in Scotland and England, and spatially coherent, probabilistic climate change data to project the future connectivity of selected grid cells under climate change. 
 
 ### Climate data
 
