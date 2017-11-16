@@ -35,6 +35,6 @@ NOTE: Due to the many controls and features of the app, the GUI is a fixed size 
 Use the 'Clone or download' button to obtain the executable file. This will open up a web-based installer so you will need an internet connection. The installer will download MATLAB Runtime, which is a free standalone set of shared libraries that enables the execution of compiled MATLAB applications on computers that do not have MATLAB installed. MATLAB Runtime requires approximately 1GB of disk space, so it may take some time to install. Once installation is complete, the app will load quickly using the desktop shortcut. When you are finished with using the app you can uninstall MATLAB Runtime, or you can keep it in order to download and use other MATLAB apps and components. Note that when you run the app after installation, a splash screen will appear to let you know the app is loading. The splash screen will disappear also immediately and there will be a short interval before the app loads; there is no need to try and load it again, just be patient.
 
 ### Documentation
-
+A full guide on how to use the app to perform climate change risk assessments is provided [HERE](https://github.com/pskelsey/4C/blob/master/docs/Documentation.md)
 
 ### License
