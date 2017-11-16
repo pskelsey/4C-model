@@ -1,3 +1,10 @@
+<p align="left">
+  <img width="212" height="166"  src="https://github.com/pskelsey/4C/blob/gh-pages/4CLogo.png">
+</p>
+
+
+# Crop Connectivity under Climate Change (4C model)
+
 # Table of Contents
 * [Background](#background)
   * [Climate data](#background)
