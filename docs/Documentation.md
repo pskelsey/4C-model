@@ -1,7 +1,7 @@
 # Contents
 
-- [Model Tab](## Model Tab)
-- [Projections Tab](## Projections Tab)
+- [Model Tab](#model-tab)
+- [Projections Tab](#projections-tab)
 
 ## Model Tab
 
