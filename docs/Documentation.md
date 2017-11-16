@@ -1,8 +1,12 @@
 # Contents
 
-* a
-* b
-* c
+- [Model Tab](## Model Tab)
+- [Projections Tab](## Projections Tab)
+
+## Model Tab
+
+
+## Projections Tab
 
 
 1. [Fitting a model to your own data](#example)
