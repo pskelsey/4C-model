@@ -1,16 +1,14 @@
-#### Item 1
+# Table of Contents
+* Background
+* Models Tab
+  * Fitting a model to your own data
+  * Creating your own model
+* Projections tab
+  * Emissions panel
+  * Landscapes panel
+  * Dispersal panel
+  * Plots panel
 
-   subitem 1
-   
-#### Item 2
-
-   subitem 2
-
-
-[Model Tab](#model-tab)
-   Fitting a model to your own data
-   Creating your own model
-[Projections Tab](#projections-tab)
 
 ## Model Tab
 
