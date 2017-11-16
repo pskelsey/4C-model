@@ -14,7 +14,7 @@ A desktop app for performing climate change risk assessments in real crop locati
 * Hit the run button, visualise your results, and save them to create your own graphics. 
 
 ## Example
-A risk function is selected from the drop-down menu and fit to some data for disease severity as a function of temperature. You could just as easily recreate the same risk function without any data. 
+A risk function is selected from the drop-down menu and fit to some data for the proportion of plants infected as a function of temperature. You could just as easily recreate the same risk function without any data. 
 
 <p align="center">
   <img src="https://github.com/pskelsey/4C/blob/gh-pages/modelsTabLarge.png">
