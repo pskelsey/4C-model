@@ -34,7 +34,7 @@ Data defining the spatial coverage of crops and land-use types were derived from
 *Switches*: Drag the circluar switch to the left or right, or just click in the empty space.  
 *Drop down lists*: Click on the downward pointing arrow to reveal the list.  
 *Numeric fields*: Click in the white box to change the numerical value. Then hit enter or click outside the box.  
-*Text fields*: Click in the white box to change the text. Then click outside the box. If you find you can't change the text, you're not allowed.  
+*Text fields*: Click in the white box to change the text. Then click outside the box. If you can't, you're not allowed.  
 *Buttons*: Click.
 *Knobs*: Drag the control to around your selection, or click on your selection.  
 *List boxes*: Use the scroll bar to the right to reveal more choices. Click on a value to select it - it will be highlighted.  
