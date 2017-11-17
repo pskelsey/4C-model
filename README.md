@@ -4,7 +4,8 @@
 
 
 # Crop Connectivity under Climate Change (4C model)
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)]() [![Codacy coverage](https://img.shields.io/codacy/coverage/c44df2d9c89a4809896914fd1a40bedd.svg?style=flat-square)]()
+
 
 ## Basic overview
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain. 
