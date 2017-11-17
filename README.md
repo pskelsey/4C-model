@@ -19,7 +19,7 @@ A risk function is selected from the drop-down list and fitted to some data for 
 <p align="center">
   <img src="https://github.com/pskelsey/4C/blob/gh-pages/modelsTabLarge.png">
 </p>
-Temperature is selected as the variable of interest, for a low emissions scenario in the 2040s, and the model is applied in potato crops in the English Midlands (map shown). In order to adjust projected future values according to the connectivity of the crops (e.g., for pest dispersal), dispersal is switched on and set to a 2D Gaussian dispersal function with an average dispersal distance of 10km. The boxplots show the distribution of projected values for May through to September, which in this instance, show the percentage increase in risk compared to the current (baseline) climate. 
+Temperature is selected as the variable of interest, for a low emissions scenario in the 2040s, and the model is applied in potato crops in the English Midlands (map shown). In order to adjust projected values according to the connectivity of the crops (e.g., for pest dispersal), dispersal is switched on and set to a 2D Gaussian dispersal function with an average dispersal distance of 10km. The five boxplots show the distribution of projected values in the selected potato crops for May through to September, which in this instance, show the percentage increase in risk compared to the current (baseline) climate. 
 <p>
   
 </p>
