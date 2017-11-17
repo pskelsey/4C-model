@@ -5,6 +5,8 @@
 
 # **4C model**: Crop Connectivity under Climate Change
 
+**Pete**
+
 ## Basic overview
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain. 
 * Build your own risk model in a few easy clicks.
