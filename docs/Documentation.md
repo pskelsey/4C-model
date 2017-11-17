@@ -31,7 +31,9 @@ Data defining the spatial coverage of crops and land-use types were derived from
 
 ## Basic operation
 Tabs: The app has two 'tabs' - 'Model' and 'Projections.' To switch from one tab to the other just click on their name.
+
 Switches: Drag the circluar switch to the left or right, or just click in the empty space.
+
 Drop down lists: Click on the downward pointing arrow to reveal the list.
 Numeric fields: Click in the white box to change the numerical value. Then hit enter or click outside the box.
 Text fields: Click in the white box to change the text. Then hit enter or click outside the box. If
