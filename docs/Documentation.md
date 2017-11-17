@@ -38,7 +38,7 @@ Data defining the spatial coverage of crops and land-use types were derived from
 *Buttons*: Click them.  
 *Knobs*: Drag the control to around your selection, or click on your selection.  
 *List boxes*: Use the scroll bar to the right to reveal more choices. Click on a value to select it - it will be highlighted.  
-*Radio buttons*: These are little circles to the left of lists. Click one to select, and it will be highlighted with a black dot.
+*Radio buttons*: These are little circles to the left of lists. Click one to select, and it will be highlighted with a black dot.  
 *Toggle switches*: These flip up and down. 
 
 ## Model Tab
