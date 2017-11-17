@@ -43,7 +43,7 @@ Data defining the spatial coverage of crops and land-use types were derived from
 
 ## Model Tab
 <p align="left">
-  <img src="https://github.com/pskelsey/4C/blob/gh-pages/modelTabsLarge.png">
+  <img src="https://github.com/pskelsey/4C/blob/gh-pages/modelTabLarge.png">
 </p>
 The risk models you create here must be a function of one weather variable only, y = f(x); e.g., crop damage as a function of temperature, infection risk as a function of precipitation, etc. The ability to build models containing more than one weather variable will be included in a future release. 
 
