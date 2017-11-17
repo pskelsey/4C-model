@@ -3,7 +3,7 @@
 </p>
 
 
-# **_4C model_**: __C__rop Connectivity under Climate Change
+# **4C model: **Crop Connectivity under Climate Change
 
 ### **P**ete
 
