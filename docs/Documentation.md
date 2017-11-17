@@ -28,8 +28,6 @@ The app uses raw monthly 25 km gridded (52 x 39 cells) climate data from the UK 
 ### Crop data
 Data defining the spatial coverage of crops and land-use types were derived from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en), [JACS](http://www.gov.scot/Topics/Statistics/Browse/Agriculture-Fisheries/PubFinalResultsJuneCensus), and [CROME](https://data.gov.uk/data/search?q=CROME). These data cover Scotland and England only. 
 
-### Output data
-For each future scenario you define, a 'super-ensemble' of projected values is produced (11 SCPs x *n* selected grid cells). These can be saved to an ASCII file, where a new column of data is added for each scenario defined. Each column will contain 22308 values (52 x 39 cells x 11 SCPs). Only a small proporition of these values will be numerical, pertaining to the grid cells you selected for your projections. The rest will be NaN (not a number). These results can be saved to any location you like.
 
 ## Model Tab
 
@@ -42,17 +40,20 @@ The risk model must be a function of one weather variable only, y = f(x); e.g., 
 
 ## Projections Tab
 
-
-### Emissions panel
-
-
-### Landscapes panel
+### Output data
+For each future scenario you define, a 'super-ensemble' of projected values is produced (11 SCPs x *n* selected grid cells). These can be saved to an ASCII file, where a new column of data is added for each scenario defined. Each column will contain 22308 values (52 x 39 cells x 11 SCPs). Only a small proporition of these values will be numerical, pertaining to the grid cells you selected for your projections. The rest will be NaN (not a number). These results can be saved to any location you like.
 
 
-### Dispersal panel
+## Emissions panel
 
 
-### Plots panel
+## Landscapes panel
+
+
+## Dispersal panel
+
+
+## Plots panel
 
 
 
