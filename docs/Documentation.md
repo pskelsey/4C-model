@@ -64,6 +64,9 @@ Slide the 'Create a model / Fit model to data' switch to the left.
 
 
 ## Projections Tab
+<p align="left">
+  <img src="https://github.com/pskelsey/4C-model/blob/master/docs/projectionsTabLarge.png">
+</p>
 
 ### Output data
 For each future scenario you define, a 'super-ensemble' of projected values is produced (11 SCPs x *n* selected grid cells). These can be saved to an ASCII file, where a new column of data is added for each scenario defined. Each column will contain 22308 values (52 x 39 cells x 11 SCPs). Only a small proporition of these values will be numerical, pertaining to the grid cells you selected for your projections. The rest will be NaN (not a number). These results can be saved to any location you like.
