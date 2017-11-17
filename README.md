@@ -3,7 +3,7 @@
 </p>
 
 
-# **4C model: Crop Connectivity under Climate Change
+# **4C model**: Crop Connectivity under Climate Change
 
 **Pete**
 
