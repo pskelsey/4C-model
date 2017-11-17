@@ -3,9 +3,7 @@
 </p>
 
 
-# **4C model**: Crop Connectivity under Climate Change
-
-**Pete**
+# **_4C model_**: Crop Connectivity under Climate Change
 
 ## Basic overview
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain. 
