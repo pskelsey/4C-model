@@ -9,7 +9,7 @@
 ## Basic overview
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain. 
 * Build your own risk model in a few easy clicks.
-* Choose raster a distribution of crop species / land use locations to apply your model in, or generate your own landscape.
+* Choose a raster distribution of crop species / land use locations to apply your model in, or generate your own landscape.
 * Select a climate variable, a future time-period and month, and pick your greenhouse gas emissions scenario.
 * Define the level of connectivity among grid cell locations, if desired.
 * Hit the run button, visualise your results, and save them to create your own graphics. 
