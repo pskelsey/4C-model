@@ -42,7 +42,7 @@ Polygon data defining the spatial coverage of crops and land-use types were deri
 *Toggle switches*: These flip up and down. 
 
 ## Model Tab
-The risk models you create here must be a function of one weather variable only, y = f(x); e.g., crop damage as a function of temperature, infection risk as a function of precipitation, etc. The ability to build models containing more than one weather variable will be included in a future release.  
+The risk models you create here must be a function of one weather variable only, y = f(x); e.g. crop damage as a function of temperature, infection risk as a function of precipitation, etc. The ability to build models containing more than one weather variable will be included in a future release.  
 
 <p align="left">
   <img src="https://github.com/pskelsey/4C-model/blob/master/docs/modelsTabLarge.png">
@@ -52,14 +52,19 @@ The risk models you create here must be a function of one weather variable only,
 Select 'Create a model' using the switch.
 
 #### Use a pre-defined function
-Select 'Use the list' using the switch. Select a function from the 'Model list' dropdown list. The equation will be displayed in the 'Model description' pane. Adjust the value of the parameters (a, b, c, d) using the numeric fields. The 'lower' and 'upper' fields will be greyed out as these are used for fitting models to data. To visualise your function, adjust the range of your x-variable (minimum and maximum values) and the increment (affects the smoothness of the curve) using the 'x-range' numeric field. The format required is min:step:max, e.g., to plot from 0 to 10 in steps of 0.1 you would enter 0:0.1:10. Click the 'Run' button. To use this model for projections you must slide the 'Use this model' switch to the right and the lamp will change to green. You can now proceed to the Projections Tab.
+Select 'Use the list' using the switch. Select a function from the 'Model list' dropdown list. The equation will be displayed in the 'Model description' pane. Adjust the value of the parameters (a, b, c, d) using the numeric fields. The 'lower' and 'upper' fields will be greyed out as these are used for fitting models to data. 
 
 #### Define your own function
-Select 'Define my own' using the switch. The 'Use my function f(x) = ' text field will no longer be greyed out and you can now type in the function you want to use. 
-
+Select 'Define my own' using the switch. The 'Use my function f(x) = ' text field will no longer be greyed out and you can now type in the function you want to use. The following rules must be followed when defining your model: (i) do not include the dependent variable, i.e. omit the 'y = ' or 'f(x) = ' part of your equation as this is implicitly assumed; (ii) your equation should be a function of one independent variable only and you must use the letter 'x'; (iii) [MATLAB notation](https://uk.mathworks.com/help/matlab/matlab_prog/matlab-operators-and-special-characters.html) is required for your arithmetical operators and symbols. If these rules are not followed, an 'Incorrect sytax' warning will occur. 
 
 ### Fitting a model to your own data
-Slide the 'Create a model / Fit model to data' switch to the left. 
+Select 'Fit model to data' using the switch.  
+
+### Plotting your model
+To visualise your function, adjust the range of your x-variable (minimum and maximum values) and the increment (affects the smoothness of the curve) using the 'x-range' numeric field. The format required is min:step:max, e.g., to plot from 0 to 10 in steps of 0.1 you would enter 0:0.1:10. Click the 'Run' button.
+
+### Final model selection
+To use a model for projections you must slide the 'Use this model' switch to the right and the lamp will change to green. You can now proceed to the Projections Tab.
 
 ### Creating your own model
 
