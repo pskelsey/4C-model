@@ -4,7 +4,7 @@
 
 [![Github All Releases](https://img.shields.io/github/downloads/pskelsey/4C-model/total.svg)]()
 
-[![Downloads](https://badges.ml/camden.jsdownloader/total.svg)](https://brackets-extension-badges.github.io#pskelsey.4C-model)
+[![Downloads](https://badges.ml/pskelsey.4C-model/total.svg)](https://brackets-extension-badges.github.io#pskelsey.4C-model)
 
 # !! STILL IN FINAL TESTING PHASE. DO NOT DOWNLOAD!!
 
