@@ -80,6 +80,18 @@ Select your climate variable, future time-period, and CO2 emissions scenario usi
 ## Landscapes panel
 Here you define the distribution of locations (grid cells) that you want to use in your risk assessment. First, the 'Weighting' radio buttons are used to determine how you want the area of land use types in each cell to be incoporated: None = area is ingored in projected values; Area = projected values in each grid cell *i* are weighted by the overall area of the land use type of interest *j* in the distribution of locations, value<sub>i</sub> = value<sub>i</sub> x (regional area of type<sub>j</sub> / regional area of all types).
 
+projected values in each grid cell *i* are weighted
+weighted by the relative area of the selected land type in the the distribution of locations
+
+
+of type i in the region, written as a fraction of all potential  
+
+weighted by the  area of the selected land type, expressed as the fraction of all available land use types 
+
+weighted by the propoetion of each cell occupied by the selected land use type. 
+
+where the total area per cell is the total 
+
 ## Dispersal panel
 
 
