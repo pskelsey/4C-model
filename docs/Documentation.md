@@ -27,7 +27,7 @@ The app uses gridded crop distribution / land use data and gridded climate chang
 The app uses raw monthly 25 km gridded (52 x 39 cells) climate data from the UK Met Office Climate Projections database ([UKCP09](http://ukclimateprojections.metoffice.gov.uk/)) 11-member ensemble of spatially coherent climate projections (SCPs). The SCPs provide the best estimates for modelling and summarising the potential effects of future climates on spatial processes in GB as they are fully coherent across different locations, allowing the user to consider climate change at more than one location in a way that captures the relationship between the different locations,and to average projections across user defined land areas. They include both internal modelling variability (using perturbed physics ensembles) and external modelling variability (from the use of different General Circulation Models, or GCMs), as well as information on climate variability. The SCPs provide 11 equally plausible snapshots of climate change. UKCP09 1961-1991 baseline data are also included for comparison, i.e. for computing a change relative to the current climate.
 
 ### Crop data
-Polygon data defining the spatial coverage of crops and land-use types were derived from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en), [JACS](http://www.gov.scot/Topics/Statistics/Browse/Agriculture-Fisheries/PubFinalResultsJuneCensus), and [CROME](https://data.gov.uk/data/search?q=CROME). These data cover Scotland and England only. The vector data were rasterised to 25 km grids matching the resolution of the climate change data. The area of each crop / land-use type per grid cell was calculated.
+Polygon data defining the spatial coverage of crops and land-use types were derived from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en), [JACS](http://www.gov.scot/Topics/Statistics/Browse/Agriculture-Fisheries/PubFinalResultsJuneCensus), and [CROME](https://data.gov.uk/data/search?q=CROME). These data cover Scotland and England only. The vector data were rasterised to 25 km grids matching the resolution of the climate change data. Information on the location and area of each crop / land-use type per grid cell is available for use in the app.
 
 ## Basic operation
 *Tabs*: The app has two 'tabs' - 'Model' and 'Projections.' To switch from one tab to the other just click on their name.  
@@ -64,7 +64,7 @@ Select 'Fit model to data' using the switch.
 To visualise your function, adjust the range of your x-variable (minimum and maximum values) and the increment (affects the smoothness of the curve) using the 'x-range' numeric field. The format required is min:step:max, e.g., to plot from 0 to 10 in steps of 0.1 you would enter 0:0.1:10. Click the 'Run' button.
 
 ### Final model selection
-To use a model for projections you must slide the 'Use this model' switch to the right and the lamp will change to green. You can now proceed to the Projections Tab.
+To use a model for projections you must select 'Use this model' with the switch in the bottom right of the tab, changing the lamp from change to green. You can now proceed to the Projections Tab.
 
 ### Creating your own model
 
