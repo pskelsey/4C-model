@@ -78,7 +78,7 @@ To use a model for projections you must select 'Use this model' with the switch 
 Select your climate variable, future time-period, and CO2 emissions scenario using the knobs. Select the month of the year or the season using the list box. For seasonal averages of the selected climate variable, Spr = spring (MAM), Sum = summmer (JJA), Aut = autumn (SON), and Win = winter (DJF). 
 
 ## Landscapes panel
-Here you define the distribution of locations (grid cells) that you want to use in your risk assessment. First, the 'Weighting' radio buttons are used to determine how you want the area of land use types in each cell to be incoporated: None = area is ingored in projected values; Area = projected values in each grid cell are weighted by the overall area of the land use type of interest in the distribution of locations, value = value x (area of type<sub>i</sub> / total area of all types).
+Here you define the distribution of locations (grid cells) that you want to use in your risk assessment. First, the 'Weighting' radio buttons are used to determine how you want the area of land use types in each cell to be incoporated: None = area is ingored in projected values; Area = projected values in each grid cell *i* are weighted by the overall area of the land use type of interest *j* in the distribution of locations, value<sub>i</sub> = value<sub>i</sub> x (regional area of type<sub>j</sub> / regional area of all types).
 
 ## Dispersal panel
 
