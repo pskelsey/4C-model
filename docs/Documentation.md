@@ -7,8 +7,8 @@
 
 # Table of Contents
 * [Background](#background)
-  * [Climate data](#background)
-  * [Crop data](#climate-data)
+  * [Climate data](#climate-data)
+  * [Crop data](#crop-data)
 * [Basic operation](#basic-operation)
 * [Model Tab](#model-tab)
   * [Create your own model](#create-your-own-model)
@@ -75,10 +75,12 @@ To use a model for projections you must select 'Use this model' with the switch 
 </p>
 
 ## Emissions panel
-Select your climate variable, future time-period, and CO2 emissions scenario using the knobs. Select the month of the year or the season using the list box. For seasonal averages of the selected climate variable, Spr = spring (MAM), Sum = summmer (JJA), Aut = autumn (SON), and Win = winter (DJF). 
+Select your climate variable, future time-period, and CO2 emissions scenario using the knobs. Select the month of the year or the season using the list box. For seasonal averages of the selected climate variable, Spr = spring (MAM), Sum = summmer (JJA), Aut = autumn (SON), and Win = winter (DJF). The climate change data are probabilistic, therefore a range of climate values will be provided for each grid cell (see [Climate data](#climate-data)).
 
 ## Landscapes panel
-Here you define the distribution of locations (grid cells) that you want to use in your risk assessment. First, the 'Weighting' radio buttons are used to determine how you want the area of land use types in each cell to be incoporated: None = area is ingored in projected values; Area = projected values in each grid cell *i* are weighted by the overall area of the land use type of interest *j* in the distribution of locations, value<sub>i</sub> = value<sub>i</sub> x (regional area of type<sub>j</sub> / regional area of all types).
+Here you define the distribution of locations (grid cells) that you want to use in your risk assessment. First, the 'Areas' radio buttons (No / Yes) are used to determine whether or not you want the area of the selected crop / land use type within each 25 km grid cell to be incoporated into model projections. 'No' will produce a range of projected model values for each grid cell. 'Yes' will provide a cumulative total for the area of crop / land use within each selected cell, for example, if your risk model . If 'Yes' is selected then the numeric field beneath will become available to enter the density
+
+latter is used if you want  are a cumulative total  in each grid cell *i* are weighted by the overall area of the land use type of interest *j* in the distribution of locations, value<sub>i</sub> = value<sub>i</sub> x (regional area of type<sub>j</sub> / regional area of all types).
 
 projected values in each grid cell *i* are weighted
 weighted by the relative area of the selected land type in the the distribution of locations
