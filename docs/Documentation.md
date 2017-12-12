@@ -18,9 +18,8 @@
   * [Emissions panel](#emissions-panel)
   * [Landscapes panel](#landscapes-panel)
     * [How to incorporate cell areas](#how-to-incorporate-cell-areas)
-    * [Select a distribution of locations](#landscapes-panel)
-    * [Artificial landscape generation](#landscapes-panel)
-    * [Artificial landscape generation](#landscapes-panel)
+    * [Select a distribution of locations](#select-a-distribution-of-locations)
+    * [Artificial landscape generation](#artificial-landscape-generation)
   * [Dispersal panel](#dispersal-panel)
   * [Plots panel](#plots-panel)
   
@@ -99,7 +98,10 @@ Select a region of the country using the 'Region' knob. Sco_N, Sco_E, Sco_W = No
 If the crop / land use type of interest is not available, then you may prefer to generate your own distribution of locations. Fractal geometry (the ‘inverse Fourier transform' method) is used to create binary landscape patterns of occupied / unoccupied cells (e.g. habitat / non-habitat). Select 'Artificial' using the switch. Set 'Seed' using the numeric field - this controls the random generation of patterns, allowing you to replicate a pattern by using the same value for seed. The 'f' numeric field (0,1) sets the fraction of GB land area that will be occupied. The 'H' numeric field (0,1) controls the degree of aggregation of occupied cells via a parameter known as the Hurst exponent. The 'r' numeric field (0.01,1) controls the texture of the pattern, or the size distribution of gaps among occupied cells, via a parameter known as the lacunarity.
 
 ## Dispersal panel
-
+The features in this panel are used to define spatial relationships among grid cells, e.g. dispersal, or landscape connectivity. These spatial relationshps are used to modify the projected values from your risk model in three different ways, depending on the selection made using the 'Dispersal' knob:
+1. Projected values do not incorporate any type of spatial relationship among cells - set 'Dispersal' to 'Off.'
+2. Projected values are treated as a 'source' of material (number per cell) to be dispersed among other grid cells - set 'Dispersal' to 'Std.' or 'No self.' When 'Std.' (standard) is selected, source values are dispersed among all grid cells, including dispersal of material within the confines of each 25 km source cell. An example would be passive dispersal of spores, whereby a proportion deposit close to the infection source (in the same grid cell). When 'No self.' (no selfing) is selected then all source material is dispersed outwith the boundaries of the source cell. An example would be active dispersal of pests away from a depleted habitat resource. In both cases the total number arriving at each cell from all other cells is determined by performing a spatial convolution between the distribution of source cells and a 2D radially-symmetric probability density function (dispersal kernel), using fast Fourier transforms (see [Skelsey et al. 2013](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075892)). When 'No self.' is selected the centre of the dispersal kernel is set to 0.   
+3. Projected values are weighted according to the degree of connectivity (0,1) among grid cells. This is achieved by normalising the dispersal kernel to a maximum value of unity; i.e. as grid cells become further away from a source cell, their connectivity value will decrease from 1 down towards 0. This is useful if you want to include dispersal as a 'risk factor' (bounded between 0 and 1) as opposed to a physical process involving absolute numbers of dispersing agents. An example would be a risk model that projects the likelihood of pest occurrence (on a scale of 0 to 1), which is then weighted according to the connectivity of host cells (on a scale of 0 to 1) to provide projections of the risk of pest occurrence and spread (on a scale of 0 to 1). 
 
 ## Plots panel
 
