@@ -78,10 +78,21 @@ To use a model for projections you must select 'Use this model' with the switch 
 Select your climate variable, future time-period, and CO2 emissions scenario using the knobs. Select the month of the year or the season using the list box. For seasonal averages of the selected climate variable, Spr = spring (MAM), Sum = summmer (JJA), Aut = autumn (SON), and Win = winter (DJF). The climate change data are probabilistic, therefore a range of climate values will be provided for each grid cell (see [Climate data](#climate-data)).
 
 ## Landscapes panel
-Here you define the distribution of locations (grid cells) that you want to use in your risk assessment. First, the 'Areas' radio buttons (No / Yes) are used to determine whether or not you want the area of the selected crop / land use type within each 25 km grid cell to be incoporated into model projections. 
-If 'No' is selected then the risk model will provide projections for each grid cell containing the crop / land use of interest. If 'Yes' is selected then the risk model will project a cumulative total for the area of crop / land use within each grid cell; the numeric field below the radio buttons will become available to enter the initial density of the dependent variable (number per square metre), and projected values will be multiplied by the area and initial density. This is useful 
+Here you define the distribution of locations (grid cells) that you want to use in your risk assessment. First, the 'Areas' radio buttons (No / Yes) are used to determine whether or not you want the area of the selected crop / land use type within each 25 km grid cell to be incoporated into risk model projections. 'No' = projections are made for every grid cell containing the crop / land use of interest. 'Yes' = projected values are a cumulative total for the area of crop / land use within each grid cell; i.e. risk model value x area x initial density (number per square metre). The latter is suitable for population modelling. When 'Yes' is selected then the numeric field below the radio buttons will become available to enter the initial density of the dependent variable (number per square metre). Some examples of how these radio buttons and the initial density numeric field can be combined for different outcomes:
+1. Your risk model describes the impact of a climate variable on disease severity in an experimental unit (e.g. grain kernel, plant, field) and you want a representative value for future disease severity in each grid cell: select 'No.'
+2. Your risk model describes the impact of a climate variable on the areal density (number per square metre) of a pest or pathogenin an experimental unit (e.g. grain kernel, plant, field) and you want a representative value for future disease severity in each grid cell: select 'No.'
+
+
+If 'No' is selected then areas are ignored and the risk model will provide projections for each grid cell containing the crop / land use of interest. If 'Yes' is selected then the risk model will project a cumulative total for the area of crop / land use within each grid cell. The latter is used for population modelling. When 'Yes' is selected then the numeric field below the radio buttons will become available to enter the initial density of the dependent variable (number per square metre). Some examples of 
+
+
+If your risk model decsribes the the effect of climate on the density of your dependent variable (e.g. pests per square metre of crop cover) and you wish to multiply projected values by the area of crop / land use to obtain the cumulative total per grid cell, then set the initial density to 1. If, however, your risk function describes , and projected values will be multiplied by the area and initial density. This is useful 
 average value per grid cell
 population modelling, where your risk model describes the effect of climate on the density (e.g. pests) with a climate variable
+
+Yes: risk model = rgr / risk model = no. m^2
+
+
 
 'No' will produce a range of projected model values for each grid cell. 'Yes' will provide a cumulative total for the area of crop / land use within each selected cell, for example, if your risk model . If 'Yes' is selected then the numeric field beneath will become available to enter the density
 
