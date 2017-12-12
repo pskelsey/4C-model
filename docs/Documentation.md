@@ -17,6 +17,9 @@
 * [Projections tab](#projections-tab)
   * [Emissions panel](#emissions-panel)
   * [Landscapes panel](#landscapes-panel)
+    * [How to incorporate cell areas](#landscapes-panel)
+    * [Selecting a distribution of locations](#landscapes-panel)
+    * [Artificial landscape generation](#landscapes-panel)
   * [Dispersal panel](#dispersal-panel)
   * [Plots panel](#plots-panel)
   
