@@ -79,8 +79,14 @@ Select your climate variable, future time-period, and CO2 emissions scenario usi
 
 ## Landscapes panel
 Here you define the distribution of locations (grid cells) that you want to use in your risk assessment. First, the 'Areas' radio buttons (No / Yes) are used to determine whether or not you want the area of the selected crop / land use type within each 25 km grid cell to be incoporated into risk model projections. 'No' = projections are made for every grid cell containing the crop / land use of interest. 'Yes' = projected values are a cumulative total for the area of crop / land use within each grid cell; i.e. risk model value x area x initial density (number per square metre). The latter is suitable for population modelling. When 'Yes' is selected then the numeric field below the radio buttons will become available to enter the initial density of the dependent variable (number per square metre). Some examples of how these radio buttons and the initial density numeric field can be combined for different outcomes:
-1. Your risk model describes the impact of a climate variable on disease severity in an experimental unit (e.g. grain kernel, plant, field) and you want a representative value for future disease severity in each grid cell: select 'No.'
-2. Your risk model describes the impact of a climate variable on the areal density (number per square metre) of a pest or pathogenin an experimental unit (e.g. grain kernel, plant, field) and you want a representative value for future disease severity in each grid cell: select 'No.'
+1. Your risk model describes the impact of a climate variable on disease severity in an experimental unit (e.g. grain kernel, plant, field). To obtain a representative value for future disease severity in each grid cell, select 'No.'
+2. Your risk model describes the impact of a climate variable on the density (number per square metre) of a pest or pathogen. To obtain the projected total number in each grid cell, select 'Yes' and set the density field equal to 1.
+2. Your risk model describes the impact of a climate variable on the density (number per square metre) of a pest or pathogen in the crop canopy. To obtain the projected total number in each grid cell, select 'Yes' and set the density field equal to the ratio of canopy area to ground area (leaf area index).
+3. Your risk model describes the impact of a climate variable on the density of a pest or pathogen using some other 
+
+
+
+number of spores per square metre of lesion and you want the projected total number of spores in each grid cell: select 'Yes' and set the density field equal to the proportion 
 
 
 If 'No' is selected then areas are ignored and the risk model will provide projections for each grid cell containing the crop / land use of interest. If 'Yes' is selected then the risk model will project a cumulative total for the area of crop / land use within each grid cell. The latter is used for population modelling. When 'Yes' is selected then the numeric field below the radio buttons will become available to enter the initial density of the dependent variable (number per square metre). Some examples of 
