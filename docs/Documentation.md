@@ -18,7 +18,8 @@
   * [Emissions panel](#emissions-panel)
   * [Landscapes panel](#landscapes-panel)
     * [How to incorporate cell areas](#how-to-incorporate-cell-areas)
-    * [Selecting a distribution of locations](#landscapes-panel)
+    * [Select a distribution of locations](#landscapes-panel)
+    * [Artificial landscape generation](#landscapes-panel)
     * [Artificial landscape generation](#landscapes-panel)
   * [Dispersal panel](#dispersal-panel)
   * [Plots panel](#plots-panel)
@@ -90,6 +91,12 @@ The 'Areas' radio buttons (No / Yes) are used to determine whether or not you wa
 3. Your risk model describes the impact of a climate variable on the density of a pest per square meter of crop canopy. To project the total number of pests in each grid cell, select 'Yes' and set the density field equal to the ratio of canopy area to ground area (i.e. the leaf area index).
 4. Your risk model describes the impact of a climate variable on the number of spores per lesion. To project the total number of spores in each grid cell, select 'Yes' and set the density field equal to the ratio of lesion area to ground area.
 5. Your risk model describes the impact of a climate variable on the relative growth rate of a population of organisms. To obtain the future population size within the habitat / host contained in each grid cell, select 'Yes' and set the density field equal to the initial number of organisms per square meter of ground cover. Note that the units of the relative growth rate should match the temporal resolution of the climate change data - per month, or per season (see [Climate data](#climate-data)). 
+
+## Select a distribution of locations
+Select a region of the country using the 'Region' knob. Sco_N, Sco_E, Sco_W = Northern, Eastern and Western Scotland, respectively. Eng_N, Eng_M, Eng_SE, Eng_SW = North, Midlands, South East, and South West England, respectively. Once a region is selected, choose a spatial distribution of crop / land use locations using the  'Crop / land use' list box: P = potato, SB = spring barley, WB = winter barley, SO = spring oats, WO = winter oats, SW = spring wheat, WW = winter wheat, F = forestry, W = water bodies (ponds, lakes, rivers).
+
+## Artifical landscape generation
+If the crop / land use type of interest is not available, then you may prefer to generate your own distribution of locations. Fractal geometry (the ‘inverse Fourier transform' method) is used to create binary landscape patterns of occupied / unoccupied cells (e.g. habitat / non-habitat). Select 'Artificial' using the switch. Set 'Seed' using the numeric field - this controls the random generation of patterns, allowing you to replicate a pattern by using the same value for seed. The 'f' numeric field (0,1) sets the fraction of GB land area that will be occupied. The 'H' numeric field (0,1) controls the degree of aggregation of occupied cells via a parameter known as the Hurst exponent. The 'r' numeric field (0.01,1) controls the texture of the pattern, or the size distribution of gaps among occupied cells, via a parameter known as the lacunarity.
 
 ## Dispersal panel
 
