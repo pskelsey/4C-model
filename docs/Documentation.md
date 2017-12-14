@@ -23,7 +23,7 @@
     * [Artificial landscape generation](#artificial-landscape-generation)
   * [Dispersal panel](#dispersal-panel)
     * [Choose the type of dispersal](#choose-the-type-of-dispersal)
-    * [Create the dispersal kernel](#create-the-dispersal-function)
+    * [Create the dispersal function](#create-the-dispersal-function)
   * [Plots panel](#plots-panel)
   
 
@@ -111,8 +111,8 @@ The 'Dispersal' knob is used to define three different types of spatial relation
 2. Dispersal is a physical process involving absolute numbers of dispersing agents - set 'Dispersal' to 'Std.' or 'No self.' In both cases, the projected values from your risk model are treated as a 'source' of material (amount per cell) to be dispersed among other grid cells. When 'Std.' (standard) is selected, source values are dispersed among all grid cells including the cell of origin. An example would be passive dispersal of spores, whereby a proportion deposit close to the infection source (in the same grid cell). When 'No self.' (no selfing) is selected then all source material is dispersed outwith the boundaries of the source cell. An example would be active dispersal of pests away from a depleted habitat resource. When 'No self.' is selected the centre of the dispersal kernel is set to 0.   
 3. Dispersal is a weighting factor, ranging from 0 to 1, that describes the degree of connectivity of each cell to all other cells - set 'Dispersal' to 'Conn.' In this case the dispersal kernel is normalized to a maximum value of unity. An example would be a risk model that projects the likelihood of pest occurrence (on a scale of 0 to 1), which is then weighted according to the connectivity of host cells (on a scale of 0 to 1) to provide projections of the risk of pest occurrence and spread (on a scale of 0 to 1). 
 
-### Create the dispersal kernel
-To change the dispersal kernel use the 'Kernel' knob:  fat = fat-tailed (square-root negative exponential kernel), thin = thin-tailed (negative exponential kernel), Gauss = Gaussian kernel. These three kernels are all derived from the exponential-power distribution and all have a different shape (see [Skelsey et al. 2013](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075892) for a thorough explanation). Fat-tailed kernels are often used for processes that operate at broad spatial scales, such as long-distance dispersal by wind, whereas thin-tailed kernels are often used for processes that operate at fine spatial scales, such as splash dispersal. The kernel is parameterized using the 'mdd' numeric field = mean dispersal distance. Enter a number for the average distance that an individual can disperse. A 1D slice through your dispersal kernel (i.e. a dispersal gradient) is automatically displayed in the plot pane of the Dispersal panel.
+### Create the dispersal function
+To change the dispersal function use the 'Kernel' knob:  fat = fat-tailed (square-root negative exponential kernel), thin = thin-tailed (negative exponential kernel), Gauss = Gaussian kernel. These three kernels are all derived from the exponential-power distribution and all have a different shape (see [Skelsey et al. 2013](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075892) for a thorough explanation). Fat-tailed kernels are often used for processes that operate at broad spatial scales, such as long-distance dispersal by wind, whereas thin-tailed kernels are often used for processes that operate at fine spatial scales, such as splash dispersal. The kernel is parameterized using the 'mdd' numeric field = mean dispersal distance. Enter a number for the average distance that an individual can disperse. A 1D slice through your dispersal kernel (i.e. a dispersal gradient) is automatically displayed in the plot pane of the Dispersal panel.
 
 ## Plots panel
 
