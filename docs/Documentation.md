@@ -99,10 +99,10 @@ The 'Areas' radio buttons (No / Yes) are used to determine whether or not you wa
 
 The density parameter can be used in many other ways; just make sure you do a dimensional analysis, as above, so that the units on the left hand side of the equality operator match the units on the right hand side.
 
-## Select a distribution of locations
+### Select a distribution of locations
 Select a region of the Scotland or England using the 'Region' knob. Sco_N, Sco_E, Sco_W = Northern, Eastern and Western Scotland, respectively. Eng_N, Eng_M, Eng_SE, Eng_SW = North, Midlands, South East, and South West England, respectively. Once a region is selected, choose a spatial distribution of crop / land use locations using the  'Crop / land use' list box: P = potato, SB = spring barley, WB = winter barley, SO = spring oats, WO = winter oats, SW = spring wheat, WW = winter wheat, F = forestry, W = water bodies (ponds, lakes, rivers).
 
-## Artifical landscape generation
+### Artifical landscape generation
 The 4C model also allows you to generate your own distribution of locations. This is useful if the crop distribution desired is not available, and for adaptation scenarios involving a change in the amount and spatial distribution of crop locations. Artifical landscapes are generated using fractal geometry (the ‘inverse Fourier transform' method) to create binary landscape patterns of occupied / unoccupied cells (e.g. habitat / non-habitat). Select 'Artificial' using the switch. Set 'Seed' using the numeric field - this controls the random generation of patterns, allowing you to replicate a pattern by using the same value for seed. The 'f' numeric field (0,1) sets the fraction of GB land area that will be occupied. The 'H' numeric field (0,1) controls the degree of aggregation of occupied cells via a parameter known as the Hurst exponent. The 'r' numeric field (0.01,1) controls the texture of the pattern, or the size distribution of gaps among occupied cells, via a parameter known as the lacunarity.
 
 ## Dispersal panel
