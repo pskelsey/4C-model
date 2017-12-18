@@ -25,6 +25,9 @@
     * [Choose the type of dispersal](#choose-the-type-of-dispersal)
     * [Create the dispersal function](#create-the-dispersal-function)
   * [Plots panel](#plots-panel)
+    * [Making maps](#making-maps)
+    * [Plotting projected values](#plotting-projected-values)
+    * [Saving results](#saving-results)
   
 
 ## Background
@@ -116,9 +119,14 @@ To change the dispersal function use the 'Kernel' knob:  fat = fat-tailed (squar
 
 ## Plots panel
 
+### Making maps
+Click the 'Map' button to the left of the 'Map of climate variable / land use' plot pane. Switch between a map of the selected climate variable and a map of the selected crop / land use distribution using the 'Plot' radio buttons immediately beneath. 
 
-### Output data
-For each future scenario you define, a 'super-ensemble' of projected values is produced (11 SCPs x *n* selected grid cells). These can be saved to an ASCII file, where a new column of data is added for each scenario defined. Each column will contain 22308 values (52 x 39 cells x 11 SCPs). Only a small proporition of these values will be numerical, pertaining to the grid cells you selected for your projections. The rest will be NaN (not a number). These results can be saved to any location you like.
+### Plotting projected values
+Once your future scenario has been defined, click the 'Project' button to the left of the 'Boxplots of projected values' plot pane. This will produce a boxplot of projected values for that scenario. Each boxplot is a 'super-ensemble' of projected values (11 SCPs x *n* selected grid cells). Boxes extend from the first to the third quartile, medians are marked in each box, and whiskers extend to 1.5 times the interquartile range. You can display multiple boxplots (i.e. multiple scenarios, such as a different month of the year / decade / emissions level / risk model / crop distribution, etc.) together in the plot pane. Click the 'Clear' button to clear the plot pane. The 'Plot' radio button 'Abs' will plot the absolute projected values from your risk model. The 'Chg' radio button will plot the projected values relative to those for the 1961-1991 baseline climatology to show the proportional response; i.e. the percentage change in the response variable relative to baseline conditions. The 'Scale' radio buttons 'Lin.' and 'Log.' will change the scale of the y-axis from linear to logarithmic.   
+
+### Saving results
+Click the 'Save' button to save your results. This will open up a file save dialog box, where you can name your results file and save to any location. Note that only the results for the boxplots displayed in the plot pane will be saved - if you click the 'Clear' button then these results will be lost. Your results will be saved to an ASCII file, and the projected values for each scenario you define (each boxplot) will be stored in a separate column. Each column will contain 22308 values (52 x 39 cells x 11 SCPs). Only a small proporition of these values will be numerical, pertaining to the grid cells you selected for your projections. The rest will be NaN (not a number), representing the grid cells (land and sea) not selected. 
 
 
 
