@@ -40,7 +40,7 @@ NOTE: Due to the many controls and features of the app, the GUI is a fixed size 
 Use the green 'Clone or download' button near the top of the page to download the zip file containing a web-based installer. The installer will download MATLAB Runtime to your computer, which is a royalty-free standalone set of shared libraries that enables the execution of compiled MATLAB applications on computers that do not have MATLAB installed. If you have an up-to-date version of MATLAB then this step will be skipped. MATLAB Runtime requires approximately 1GB of disk space so it may take some time to install. Once installation of Runtime is complete the app will load quickly using the shortcuts provided. When the app is loading a splash screen will appear then disappear, and there will be a short interval before the app loads; there is no need to try and load it again, just be patient. 
 
 ### Documentation
-A full guide on how to use the app to perform climate change risk assessments is provided [HERE](https://github.com/pskelsey/4C/blob/master/docs/Documentation.md)
+A full guide on how to use the app to perform climate change risk assessments is provided in the [Documentation.md](https://github.com/pskelsey/4C/blob/master/docs/Documentation.md)
 
 ### References
 [Skelsey, P. et al. 2016. Crop connectivity under climate change: future environmental and geographic risks of potato late blight in Scotland. Global Change Biology 22:3724–3738.](http://onlinelibrary.wiley.com/doi/10.1111/gcb.13368/full)
@@ -48,4 +48,4 @@ A full guide on how to use the app to perform climate change risk assessments is
 [Skelsey, P., and Newton, A.C. 2015. Future environmental and geographic risks of Fusarium head blight of wheat in Scotland. European Journal of Plant Pathology 142:133–147.](https://link.springer.com/article/10.1007/s10658-015-0598-7)
 
 ### License
-The MIT License (MIT) 2017 - Peter Skelsey. Please have a look at the [LICENSE.md](https://github.com/pskelsey/4C-model/blob/master/LICENSE) for more details.
+The MIT License (MIT) 2017 - Peter Skelsey. For more details, please have a look at the [LICENSE](https://github.com/pskelsey/4C-model/blob/master/LICENSE) for more details.
