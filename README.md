@@ -6,8 +6,6 @@
 
 [![Downloads](https://badges.ml/pskelsey.4C-model/total.svg)](https://brackets-extension-badges.github.io#pskelsey.4C-model)
 
-# !! STILL IN FINAL TESTING PHASE. DO NOT DOWNLOAD!!
-
 # _4C model_: Crop Connectivity under Climate Change
 
 ## Basic overview
