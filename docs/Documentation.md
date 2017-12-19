@@ -55,7 +55,7 @@ Polygon data defining the spatial coverage of crops and land-use types were deri
 The risk models you create here must be a function of one weather variable only, y = f(x); e.g. crop damage as a function of temperature, infection risk as a function of precipitation, etc. The ability to build models containing more than one weather variable will be included in a future release.  
 
 <p align="left">
-  <img src="https://github.com/pskelsey/4C-model/blob/master/docs/modelsTabLarge.png">
+  <img src="https://github.com/pskelsey/4C-model/blob/gh-pages/modelsTabLarge.png">
 </p>
 
 ### Create your own model
