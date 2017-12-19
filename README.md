@@ -48,4 +48,4 @@ A full guide on how to use the app to perform climate change risk assessments is
 [Skelsey, P., and Newton, A.C. 2015. Future environmental and geographic risks of Fusarium head blight of wheat in Scotland. European Journal of Plant Pathology 142:133–147.](https://link.springer.com/article/10.1007/s10658-015-0598-7)
 
 ### License
-The MIT License (MIT) 2017 - Peter Skelsey. Please have a look at the LICENSE.md for more details.
+The MIT License (MIT) 2017 - Peter Skelsey. Please have a look at the [LICENSE.md](https://github.com/pskelsey/4C-model/blob/master/LICENSE) for more details.
