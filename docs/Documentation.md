@@ -80,7 +80,7 @@ To use a model for projections you must select 'Use this model' with the switch 
 
 ## Projections Tab
 <p align="left">
-  <img src="https://github.com/pskelsey/4C-model/blob/master/docs/projectionsTabLarge.png">
+  <img src="https://github.com/pskelsey/4C-model/blob/gh-pages/projectionsTabLarge.png">
 </p>
 
 ## Emissions panel
