@@ -30,7 +30,7 @@
     * [Saving results](#saving-results)
   
 
-## Background
+# Background
 The app uses gridded crop distribution / land use data and gridded climate change data, and allows you to build a weather-dependent model to apply in selected grid cells under various climate change scenarios. A unique feature of the app is the ability to define spatial relationships (e.g. risk of pest or pathogen dispersal) among grid cells via various dispersal options. These spatial relationships can be used to modify projected values. 
 
 ### Climate data
@@ -39,7 +39,7 @@ The app uses raw monthly 25 km gridded (52 x 39 cells) climate data from the UK 
 ### Crop data
 Polygon data defining the spatial coverage of crops and land-use types were derived from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en), [JACS](http://www.gov.scot/Topics/Statistics/Browse/Agriculture-Fisheries/PubFinalResultsJuneCensus), and [CROME](https://data.gov.uk/data/search?q=CROME). These data cover Scotland and England only. The vector data were rasterised to 25 km grids matching the resolution of the climate change data. Information on the location and area of each crop / land-use type per grid cell is available for use in the app.
 
-## Basic operation
+# Basic operation
 *Tabs*: The app has two 'tabs' - 'Model' and 'Projections.' To switch from one tab to the other just click on their name.  
 *Switches*: Drag the circluar switch to the left or right, or just click in the empty space.  
 *Drop down lists*: Click on the downward pointing arrow to reveal the list.  
@@ -51,7 +51,7 @@ Polygon data defining the spatial coverage of crops and land-use types were deri
 *Radio buttons*: These are little circles to the left of lists. Click one to select, and it will be highlighted with a black dot.  
 *Toggle switches*: These flip up and down. 
 
-## Model Tab
+# Model Tab
 The risk models you create here must be a function of one weather variable only, y = f(x); e.g. crop damage as a function of temperature, infection risk as a function of precipitation, etc. The ability to build models containing more than one weather variable will be included in a future release.  
 
 <p align="left">
@@ -78,7 +78,7 @@ Click the 'Run' button to display your user-defined or fitted model in the 'Data
 ### Final model selection
 To use a model for projections you must select 'Use this model' with the switch in the bottom right corner of the tab, changing the lamp from red to green. You can now proceed to the Projections Tab.
 
-## Projections Tab
+# Projections Tab
 <p align="left">
   <img src="https://github.com/pskelsey/4C-model/blob/gh-pages/projectionsTabLarge.png">
 </p>
