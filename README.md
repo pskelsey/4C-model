@@ -7,8 +7,6 @@
 
 [![Github downloads](https://img.shields.io/github/downloads/pskelsey/4C-model/total.svg?style=flat-square)](https://github.com/pskelsey/4C-model)
 
-[![Github downloads](https://img.shields.io/github/downloads/pskelsey/4C-model.svg?style=flat-square)](https://github.com/pskelsey/4C-model)
-
 # _4C model_: Crop Connectivity under Climate Change
 
 ## Basic overview
