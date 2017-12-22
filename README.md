@@ -5,9 +5,8 @@
 
 [![Downloads badge](https://badged.co/pskelsey/4C-model/total)](https://github.com/pskelsey/4C-model)
 
-[![Github downloads](https://img.shields.io/github/downloads/pskelsey/4C-model/total.svg?style=flat-square)](https://github.com/pskelsey/4C-model)
+[![Github All Releases](https://img.shields.io/github/downloads/pskelsey/4C-model/total.svg?style=flat-square)](https://github.com/pskelsey/4C-model)
 
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/pskelsey/4C-model)
 
 # _4C model_: Crop Connectivity under Climate Change
 
