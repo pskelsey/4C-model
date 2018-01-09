@@ -1,4 +1,6 @@
-
+<p align="left">
+  <img width="212" height="166"  src="https://github.com/pskelsey/4C-model/blob/gh-pages/4CLogo.png">
+</p>
 
 [![Github All Releases](https://img.shields.io/github/downloads/pskelsey/4C-model/total.svg?style=flat-square)](https://github.com/pskelsey/4C-model)
   
