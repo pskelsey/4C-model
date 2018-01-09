@@ -3,12 +3,6 @@
 </p>
 
 [![Github All Releases](https://img.shields.io/github/downloads/pskelsey/4C-model/total.svg?style=flat-square)](https://github.com/pskelsey/4C-model)
-
-[![Github All Releases](https://img.shields.io/github/downloads/pskelsey/4C-model/total.svg)](https://github.com/pskelsey/4C-model)
-
-[![Github Downloads (monthly)](https://img.shields.io/github/downloads/pskelsey/4C-model/latest/total.svg)](https://github.com/pskelsey/4C-model)
-
-[![Anaconda-Server Badge](https://anaconda.org/pskelsey/4C-model/badges/downloads.svg)](https://github.com/pskelsey/4C-model)
    
 # _4C model_: Crop Connectivity under Climate Change
 
