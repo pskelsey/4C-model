@@ -5,6 +5,8 @@
 [![Github All Releases](https://img.shields.io/github/downloads/pskelsey/4C-model/total.svg?style=flat-square)](https://github.com/pskelsey/4C-model)
   
 <img src="4C-model/images/4CLogo.png">
+
+![alt text](https://github.com/pskelsey/4C/blob/gh-pages/4CLogo.png "Logo Title Text 1")
   
 # _4C model_: Crop Connectivity under Climate Change
 
