@@ -1,4 +1,4 @@
-![](gh-pages/4CLogo.png)
+![](/gh-pages/4CLogo.png)
 
 [![Github All Releases](https://img.shields.io/github/downloads/pskelsey/4C-model/total.svg?style=flat-square)](https://github.com/pskelsey/4C-model)
   
