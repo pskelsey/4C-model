@@ -17,13 +17,11 @@ A desktop app for performing climate change risk assessments in real crop locati
 ## Example
 A risk function is selected from the drop-down list and fit to user-defined data for the proportion of plants infected as a function of temperature. If you have no data you can still select a model from the drop-down list and manually adjust the parameter values to suit, or define your own function in the box provided. 
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/pskelsey/4C/blob/gh-pages/modelsTabLarge.png">
 </p>
 Once your model is defined in the Model Tab, you can move on to the Projections Tab. Temperature is selected as the variable of interest, for a low emissions scenario in the 2040s, and potato crops are selected from the list of available crop species / land-use types. That selection is narrowed further to locations in the English Midlands (map shown). In order to adjust projected values from the model according to the connectivity of the crops (e.g. for pest dispersal), dispersal is switched on and set to a 2D Gaussian dispersal function with an average dispersal distance of 10km. The five boxplots show the distribution of projected model values in the selected potato crops for May through to September. In this example the results are presented as the percentage increase in risk compared to the current (baseline) climate, whereas you can opt to display the absolute values from the model. 
-<p>
-  
-</p>
+
 <p align="left">
   <img src="https://github.com/pskelsey/4C/blob/gh-pages/projectionsTabLarge.png">
 </p>
@@ -36,7 +34,7 @@ NOTE: Due to the many controls and features of the app, the GUI is a fixed size 
 To make sure you get the latest release, click on the 'release' button near the top of the page:
 
 <p align="left">
-  <img src="ttps://github.com/pskelsey/4C/blob/gh-pages/download.PNG">
+  <img src="https://github.com/pskelsey/4C/blob/gh-pages/download.PNG">
 </p>
 
 Then click on the executable file at the top of the Assets list - cropConnectivityUnderClimateChange.exe. This will download a web-based installer to your computer, so you will need an internet connection to install the app. When you run the installer, it will download MATLAB Runtime to your computer (if required). MATLAB Runtime is a royalty-free standalone set of shared libraries that enables the execution of compiled MATLAB applications on computers that do not have MATLAB installed. If you have an up-to-date version of MATLAB then this step will be skipped. MATLAB Runtime requires approximately 1GB of disk space so it may take some time to install. Once installation of Runtime is complete the app will load quickly using the shortcuts provided. When the app is loading a splash screen will appear then disappear, and there will be a short interval before the app loads; there is no need to try and load it again, just be patient. 
